@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController autoresizesArchivedViewToFullSize="NO" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading Superstar Tip..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Usz-Ma-xW7">
+                                <rect key="frame" x="21" y="768" width="372" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Usz-Ma-xW7" secondAttribute="height" multiplier="296:35" id="h7y-gs-lES"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tip_image.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jbN-oB-MBN">
+                                <rect key="frame" x="10" y="94" width="394" height="664"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="664" id="6cX-n4-kXo"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="394" id="EIn-ha-bBN"/>
+                                    <constraint firstAttribute="width" constant="394" id="Nho-zL-5ge"/>
+                                </constraints>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Usz-Ma-xW7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8fZ-VR-sKO"/>
+                            <constraint firstItem="jbN-oB-MBN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="A3e-Us-grK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Usz-Ma-xW7" secondAttribute="bottom" constant="50" id="EYq-eM-ae6"/>
+                            <constraint firstItem="jbN-oB-MBN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="XyC-17-wye"/>
+                            <constraint firstItem="Usz-Ma-xW7" firstAttribute="top" secondItem="jbN-oB-MBN" secondAttribute="bottom" constant="10" id="tId-xF-I9l"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1200" y="-6.0267857142857144"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="SFc-jY-MCM">
+            <objects>
+                <navigationController id="bCf-hp-ggV" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="E0t-4b-xp2">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KVJ-GI-oN4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="274" y="-6"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tip_image.png" width="144" height="252"/>
+    </resources>
+</document>
