@@ -1,4 +1,4 @@
-# Pre-work - *Name of App Here*
+# Pre-work - *JUST THE TIP.*
 
 **JUST THE TIP.** is a tip calculator application for iOS.
 
