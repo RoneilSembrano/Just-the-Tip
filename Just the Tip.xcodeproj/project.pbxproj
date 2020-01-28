@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7047033823E02A6F00271C0E /* nike.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7047033723E02A6E00271C0E /* nike.jpg */; };
 		70B49FE223BFF7A7002D30A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B49FE123BFF7A7002D30A2 /* AppDelegate.swift */; };
 		70B49FE423BFF7A7002D30A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B49FE323BFF7A7002D30A2 /* SceneDelegate.swift */; };
 		70B49FE623BFF7A7002D30A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B49FE523BFF7A7002D30A2 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7047033723E02A6E00271C0E /* nike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nike.jpg; sourceTree = "<group>"; };
 		70B49FDE23BFF7A7002D30A2 /* Just the Tip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Just the Tip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B49FE123BFF7A7002D30A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70B49FE323BFF7A7002D30A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 		70B4A01323C04908002D30A2 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				7047033723E02A6E00271C0E /* nike.jpg */,
 				70B4A01123C04901002D30A2 /* tip_image.png */,
 			);
 			path = Images;
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70B49FEE23BFF7A9002D30A2 /* LaunchScreen.storyboard in Resources */,
+				7047033823E02A6F00271C0E /* nike.jpg in Resources */,
 				70B49FEB23BFF7A9002D30A2 /* Assets.xcassets in Resources */,
 				70B49FE923BFF7A7002D30A2 /* Main.storyboard in Resources */,
 				70B4A01223C04901002D30A2 /* tip_image.png in Resources */,
