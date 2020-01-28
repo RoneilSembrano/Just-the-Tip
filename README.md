@@ -33,8 +33,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-
+It was challenging trying to figure out how to pass data from one screen to another. I realized that you can make essentially a copy of an entire view controller to access its contents. I also found it challenging determining the argument needed to be passed to call a function from a IBAction. I was successful passing in NIL to call a function without having to press a button. Also, the safe guard checks were a bit difficult because I had included a variable for a custom rate that could have data or be nil.
 ## License
 
     Copyright [yyyy] [name of copyright owner]
