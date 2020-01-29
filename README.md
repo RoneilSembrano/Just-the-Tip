@@ -27,7 +27,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.gyazo.com/3c25c84136ddbd4be44bd91c69705e21.gif' width='' alt='Video Walkthrough' />
+<img src='https://i.gyazo.com/e5dc0fca0d8e8b1e4c124075b507d2d7.gif' width='' alt='Video Walkthrough' />
 
 ## Notes
 
